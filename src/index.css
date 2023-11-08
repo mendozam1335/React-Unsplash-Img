@@ -305,34 +305,34 @@ PROJECT CSS
 Toggle Container
 ========
 */
-
 .toggle-container {
-  width: var(--view-width);
-  max-width: var(--max-width);
-  padding: 1rem 0;
-  margin: 0 auto;
   display: flex;
   justify-content: end;
+  width: var(--view-width);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 0;
 }
-
 .dark-toggle {
   background: transparent;
   border-color: transparent;
   width: 5rem;
   height: 2rem;
+  cursor: pointer;
   display: grid;
   place-items: center;
-  cursor: pointer;
 }
 .toggle-icon {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: var(--textColor);
 }
+
 /* 
 ========
 Search Form
 ========
 */
+
 .title {
   color: var(--primary-500);
 }
